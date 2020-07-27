@@ -1,5 +1,5 @@
 :root {
-    --footer-color: #999;
+    --footer-color: #f2f2f2;
 }
 
 * {
@@ -259,6 +259,69 @@ img {
     color: #999;
 }
 
+
+/* Lnks */
+.links {
+    background-color: var(--footer-color);
+    font-size: 12px;
+    padding: 35px 0;
+    margin-top: 3rem;
+}
+
+.links-inner ul li h3, .links-inner ul li a{
+    color: #757575;
+}
+
+.links-inner {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+    line-height: 2rem;
+}
+
+
+/* Footer */
+.footer {
+    background-color: var(--footer-color);
+    font-size: 12px;
+    padding: 2rem 0;
+}
+
+.footer-inner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer div {
+    display: flex;
+    align-items: left;
+}
+  
+.footer div i {
+    margin-right: 10px;
+    color: #757575;
+}
+
+.footer div a {
+    padding-top: 3px;
+    color: #757575;
+}
+
+.footer ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer li {
+    margin-right: 30px;
+    color: #757575;
+}
+
+.footer a:hover, .links a:hover{
+    text-decoration: underline;
+}
 
 /* Text styles */
 .text-lg {
